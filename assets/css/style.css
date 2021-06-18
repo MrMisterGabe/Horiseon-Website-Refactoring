@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* applies styles to <header> */
+/* applies styles to header class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,7 +18,7 @@ body {
     color: #ffffff;
 }
 
-/* applies styles to <h1> in <header> */
+/* applies styles to <h1> in class header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
