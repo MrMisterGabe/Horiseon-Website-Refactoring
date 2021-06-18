@@ -10,6 +10,17 @@ body {
     background-color: #d9dcd6;
 }
 
+/* applies styles to <a> elements */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* applies styles to <p> elements */
+p {
+    font-size: 16px;
+}
+
 /* applies styles to header class */
 .header {
     padding: 20px;
@@ -50,17 +61,6 @@ body {
     margin-left: 25px;
 }
 
-/* applies styles to <a> elements */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* applies styles to <p> elements */
-p {
-    font-size: 16px;
-}
-
 /* applies styles to clases labeled hero */
 .hero {
     height: 800px;
@@ -88,6 +88,33 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* applies styles to classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* applies styles to <img> with classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* applies styles to <h2> with classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* applies styles to classes labeled benefits */
@@ -125,33 +152,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* applies styles to classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* applies styles to <img> with classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* applies styles to <h2> with classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* applies styles to footer*/
