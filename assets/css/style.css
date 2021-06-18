@@ -22,7 +22,7 @@ p {
 }
 
 /* applies styles to header class */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -30,19 +30,19 @@ p {
 }
 
 /* applies styles to <h1> in class header */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* applies styles to <h1> in header as well as <seo> */
-.header h1,
+header h1,
 .seo {
     color: #d9dcd6;
 }
 
 /* applies styles to <div> in header */
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -51,12 +51,12 @@ p {
 }
 
 /* applies styles to <ul> in <div> in header */
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
 /* applies styles <li> in <ul> in <div> in header */
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
