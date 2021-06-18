@@ -1,0 +1,168 @@
+/* Universally changes box-sizing, padding, and margin */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* applies background color to <body> */
+body {
+    background-color: #d9dcd6;
+}
+
+/* applies styles to <header> */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* applies styles to <h1> in <header> */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* applies styles to <h1> in header as well as <seo> */
+.header h1,
+.seo {
+    color: #d9dcd6;
+}
+
+/* applies styles to <div> in header */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* applies styles to <ul> in <div> in header */
+.header div ul {
+    list-style-type: none;
+}
+
+/* applies styles <li> in <ul> in <div> in header */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* applies styles to <a> elements */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* applies styles to <p> elements */
+p {
+    font-size: 16px;
+}
+
+/* applies styles to clases labeled hero */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* applies styles to classes labeled float-left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* applies styles to classes labeled float-right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* applies styles to classes labeled content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* applies styles to classes labeled benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* applies styles to classes labeled benefit-lead, benefit-brand, or benefit-cost*/
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* applies styles to <h3> with classes labeled benefit-lead, benefit-brand, or benefit-cost */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* applies styles to <img> with classes labeled benefit-lead, benefit-brand, or benefit-cost */
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img  {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* applies styles to classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* applies styles to <img> with classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* applies styles to <h2> with classes labeled search-engine-optimization, online-reputation-management, or social-media-marketing*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* applies styles to footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* applies styles to <h2> in footer*/
+.footer h2 {
+    font-size: 20px;
+}
