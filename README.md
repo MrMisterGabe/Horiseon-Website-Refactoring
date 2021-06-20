@@ -1,6 +1,7 @@
 # Horiseon-Website-Refactoring
 
-I was tasked with 
+I was tasked with refactoring the code to be up to accessbility standards so that the website is optimized for search engines. Below you can find the changes made to bring it up to accessiblity standards as well as other improvements made for future development.
+
 ## General Changes
 
 Added missing "search-engine-optimization" class so link would direct to appropriate section
