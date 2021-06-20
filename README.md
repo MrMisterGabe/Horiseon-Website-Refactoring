@@ -1,5 +1,13 @@
 # Horiseon-Website-Refactoring
 
+I was tasked with 
+## General Changes
+
+Added missing "search-engine-optimization" class so link would direct to appropriate section
+
+Added placeholder link to Horiseon in header so future pages can link back to the main page when implemented
+
+
 ## HTML Accessibilty Changes
 
 Changes made to make website more accessible to users with assistive technologies ie screen readers
@@ -12,11 +20,6 @@ Changed div with header class to just header
 
 Changed title to "Main Page - Horiseon" to better indicate what page you are on for when future pages are implemented
 
-## General Changes
-
-Added missing "search-engine-optimization" class so link would direct to appropriate section
-
-Added placeholder link to Horiseon in header so future pages can link back to the main page when implemented
 
 ## CSS Changes
 
@@ -24,6 +27,10 @@ CSS selectors restructred to follow HTML structure for better readability
 
 CSS selectors and properties consolidated for items with identical changes to simplify code
 
+
+## Screenshot
+
+![What the website looks like](./assets/images/)
 
 ## Links
 
