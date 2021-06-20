@@ -30,7 +30,7 @@ CSS selectors and properties consolidated for items with identical changes to si
 
 ## Screenshot
 
-![What the website looks like](./assets/images/)
+![What the website looks like](./assets/images/webscreenshot.png)
 
 ## Links
 
