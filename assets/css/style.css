@@ -36,8 +36,7 @@ header h1 {
 }
 
 /* applies styles to <h1> in header as well as <seo> */
-header h1,
-.seo {
+header h1{
     color: #d9dcd6;
 }
 
