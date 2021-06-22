@@ -49,11 +49,6 @@ header div {
     font-size: 20px;
 }
 
-/* applies styles to <ul> in <div> in header */
-header div ul {
-    list-style-type: none;
-}
-
 /* applies styles <li> in <ul> in <div> in header */
 header div ul li {
     display: inline-block;
